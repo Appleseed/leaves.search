@@ -20,6 +20,7 @@ app.config(['$routeProvider', function($routeProvider) {
         otherwise({ event: "/" });
 }])
 .run(function($rootScope) {
-	$rootScope.appleseedsSearchSolrProxy = "https://ss346483-us-east-1-aws.searchstax.com/solr/leaves_anant_stage";
+	//$rootScope.appleseedsSearchSolrProxy = "https://ss346483-us-east-1-aws.searchstax.com/solr/leaves_anant_stage";
+	$rootScope.appleseedsSearchSolrProxy = "https://dev.leaves.anant.us/solr";
 });
 
